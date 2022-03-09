@@ -22,28 +22,6 @@ namespace Chapter_1_3_assignment
 
         }
 
-        private void txtage_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtname_TextChanged(object sender, EventArgs e)
-        {
-            
-
-
-        }
-
-        private void trackBar1_Scroll(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnsubmit_Click(object sender, EventArgs e)
         {
             string name = txtname.Text;
