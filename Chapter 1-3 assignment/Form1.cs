@@ -16,5 +16,40 @@ namespace Chapter_1_3_assignment
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtage_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtname_TextChanged(object sender, EventArgs e)
+        {
+            
+
+
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnsubmit_Click(object sender, EventArgs e)
+        {
+            string name = txtname.Text;
+            int age = Convert.ToInt32(nudage.Text);
+            double height = Convert.ToDouble(txtheight.Text);
+            lblgreatings.Text = ($"Hello {name} you have a estimated {82 - age} years until you reach average life expectancy and are {2.51 - height}m shorter than the tallest person");
+        }
     }
 }
