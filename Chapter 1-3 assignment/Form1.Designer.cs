@@ -54,7 +54,6 @@
             this.txtname.Name = "txtname";
             this.txtname.Size = new System.Drawing.Size(100, 20);
             this.txtname.TabIndex = 2;
-            this.txtname.TextChanged += new System.EventHandler(this.txtname_TextChanged);
             // 
             // lblname
             // 
@@ -66,7 +65,6 @@
             this.lblname.Size = new System.Drawing.Size(176, 20);
             this.lblname.TabIndex = 4;
             this.lblname.Text = "Please enter your name";
-            this.lblname.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblage
             // 
@@ -137,7 +135,6 @@
             this.Controls.Add(this.txtheight);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
