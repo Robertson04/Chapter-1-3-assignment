@@ -16,7 +16,7 @@ namespace Chapter_1_3_assignment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new ChapterAssignment());
         }
     }
 }

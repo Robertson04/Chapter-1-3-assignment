@@ -1,6 +1,6 @@
 ﻿namespace Chapter_1_3_assignment
 {
-    partial class Form1
+    partial class ChapterAssignment
     {
         /// <summary>
         /// Required designer variable.
@@ -119,7 +119,7 @@
             this.nudage.Size = new System.Drawing.Size(100, 20);
             this.nudage.TabIndex = 9;
             // 
-            // Form1
+            // ChapterAssignment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -133,8 +133,8 @@
             this.Controls.Add(this.lblname);
             this.Controls.Add(this.txtname);
             this.Controls.Add(this.txtheight);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "ChapterAssignment";
+            this.Text = "ChapterAssignment";
             ((System.ComponentModel.ISupportInitialize)(this.nudage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Chapter_1_3_assignment
 {
-    public partial class Form1 : Form
+    public partial class ChapterAssignment : Form
     {
-        public Form1()
+        public ChapterAssignment()
         {
             InitializeComponent();
         }
